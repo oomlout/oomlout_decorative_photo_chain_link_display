@@ -239,8 +239,8 @@ def get_base(thing, **kwargs):
 
 def get_link(thing, **kwargs):
 
-    prepare_print = kwargs.get("prepare_print", True)
-    #prepare_print = kwargs.get("prepare_print", False)
+    #prepare_print = kwargs.get("prepare_print", True)
+    prepare_print = kwargs.get("prepare_print", False)
     width = kwargs.get("width", 1)
     height = kwargs.get("height", 1)
     depth = kwargs.get("thickness", 3)                    
@@ -272,6 +272,8 @@ def get_link(thing, **kwargs):
         p3["pos"] = pos1
         #oobb_base.append_full(thing,**p3)
 
+    depth_lifter = 15
+    depth_extra = 1
     #add screw_countersunk
     if True:
         p3 = copy.deepcopy(kwargs)
@@ -279,8 +281,8 @@ def get_link(thing, **kwargs):
         p3["shape"] = f"oobb_screw_countersunk"
         p3["radius_name"] = "m3"
         p3["clearance"] = "bottom"
-        dep = 6 + 3
-        p3["depth"] = dep + 18
+        dep = depth + depth_lifter + depth_extra*2
+        p3["depth"] = dep
         poss = []
         pos1 = copy.deepcopy(pos)        
         pos1[2] += 0
@@ -299,7 +301,7 @@ def get_link(thing, **kwargs):
         oobb_base.append_full(thing,**p3)
 
     #add cylinders around screwsdiameter 6
-    depth_lifter = 15
+    
     if True:
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "positive"
@@ -338,7 +340,7 @@ def get_link(thing, **kwargs):
         #p3["m"] = "#"
         poss = []
         pos1 = copy.deepcopy(pos)         
-        pos1[2] += depth_lifter + dep/2# + 1
+        pos1[2] += depth_lifter + depth_extra
         pos11 = copy.deepcopy(pos1)
         pos1[1] += -(height-1)/2 * 15
         poss.append(pos1)
