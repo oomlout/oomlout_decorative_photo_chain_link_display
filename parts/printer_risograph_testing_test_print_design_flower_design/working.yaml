@@ -1,0 +1,103 @@
+classification: printer
+classification_capital: Printer
+classification_first_letter: p
+classification_first_letter_upper: P
+classification_upper: PRINTER
+color: test_print_design
+color_capital: Test Print Design
+color_first_letter: t
+color_first_letter_upper: T
+color_upper: TEST_PRINT_DESIGN
+description_extra: ''
+description_extra_capital: ''
+description_extra_first_letter: ''
+description_extra_first_letter_upper: ''
+description_extra_upper: ''
+description_main: flower_design
+description_main_capital: Flower Design
+description_main_first_letter: f
+description_main_first_letter_upper: F
+description_main_upper: FLOWER_DESIGN
+description_only_numbers: ''
+description_only_numbers_short: ' '
+description_or_color: 'T '
+description_or_color_upper: 'T '
+directory: parts/printer_risograph_testing_test_print_design_flower_design
+distributors: []
+id: printer_risograph_testing_test_print_design_flower_design
+id_no_class: risograph_testing_test_print_design_flower_design
+id_no_size: test_print_design_flower_design
+id_no_type: testing_test_print_design_flower_design
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/printer_risograph_testing_test_print_design_flower_design
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/printer_risograph_testing_test_print_design_flower_design
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/printer_risograph_testing_test_print_design_flower_design
+manufacturer: ''
+manufacturer_capital: ''
+manufacturer_first_letter: ''
+manufacturer_first_letter_upper: ''
+manufacturer_upper: ''
+manufacturers: []
+markdown_full: '[printer_risograph_testing_test_print_design_flower_design](none)<br>[](none)<br>[Printer
+  Risograph Testing Test Print Design Flower Design](none)<br><br>'
+markdown_short: '[printer_risograph_testing_test_print_design_flower_design](none)<br><br>'
+md5: 7c5aa23d7dcd08d04ee54e3c44b529fa
+md5_10: 7c5aa23d7d
+md5_10_upper: 7C5AA23D7D
+md5_5: 7c5aa
+md5_5_upper: 7C5AA
+md5_6: 7c5aa2
+md5_6_alpha: 4uobm
+md5_6_alpha_upper: 4UOBM
+md5_6_upper: 7C5AA2
+name: Printer Risograph Testing Test Print Design Flower Design
+name_no_class: Risograph Testing Test Print Design Flower Design
+name_no_size: Test Print Design Flower Design
+name_no_size_short: Test Print Design Flower Design
+name_no_type: Testing Test Print Design Flower Design
+name_proper: Flower Design
+name_space: flower design
+name_upper: FLOWER DESIGN
+oomlout_corel_roboclick_1:
+  actions:
+  - command: wait_for_file
+    file_name: initial_generated.png
+  - command: corel_trace_full
+    file_destination: trace.cdr
+    file_source: template\working\working.cdr
+    file_source_trace: initial_generated.png
+    max_dimension: 280
+    number_of_colors: 2
+    remove_background_color_from_entire_image: true
+    x: 105
+    y: 148.5
+  file_test: trace.png
+oomp_key: oomp_printer_risograph_testing_test_print_design_flower_design
+oomp_word: tv goat violin
+oomp_word_emoji: ':tv: :goat: :violin:'
+oomp_word_emoji_list:
+- ':tv:'
+- ':goat:'
+- ':violin:'
+oomp_word_list:
+- tv
+- goat
+- violin
+part_number: ''
+part_number_capital: ''
+part_number_first_letter: ''
+part_number_first_letter_upper: ''
+part_number_upper: ''
+short_code: ''
+short_code_upper: ''
+size: testing
+size_capital: Testing
+size_first_letter: t
+size_first_letter_upper: T
+size_only_numbers: ''
+size_only_numbers_no_zeros: ''
+size_upper: TESTING
+type: risograph
+type_capital: Risograph
+type_first_letter: r
+type_first_letter_upper: R
+type_upper: RISOGRAPH
