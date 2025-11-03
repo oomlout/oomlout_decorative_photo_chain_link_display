@@ -19,7 +19,7 @@ parts:
       height: 3
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_decorative_photo_chain_link_disp
       oomp_description_extra: ''
@@ -27,11 +27,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 3
+      typ: all
       type: oomlout_decorative_photo_chain_link_disp_link
       width: 1
     manufacturer: ''
@@ -61,7 +62,7 @@ parts:
       height: 7
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_decorative_photo_chain_link_disp
       oomp_description_extra: left_extra
@@ -69,11 +70,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 3
+      typ: all
       type: oomlout_decorative_photo_chain_link_disp_side_arm_bottom
       width: 1
     manufacturer: ''
@@ -103,7 +105,7 @@ parts:
       height: 7
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_decorative_photo_chain_link_disp
       oomp_description_extra: right_extra
@@ -111,11 +113,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 3
+      typ: all
       type: oomlout_decorative_photo_chain_link_disp_side_arm_bottom
       width: 1
     manufacturer: ''
@@ -145,7 +148,7 @@ parts:
       height: 7
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_decorative_photo_chain_link_disp
       oomp_description_extra: left_extra
@@ -153,11 +156,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 3
+      typ: all
       type: oomlout_decorative_photo_chain_link_disp_side_arm_top
       width: 1
     manufacturer: ''
@@ -187,7 +191,7 @@ parts:
       height: 7
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_decorative_photo_chain_link_disp
       oomp_description_extra: right_extra
@@ -195,11 +199,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 3
+      typ: all
       type: oomlout_decorative_photo_chain_link_disp_side_arm_top
       width: 1
     manufacturer: ''

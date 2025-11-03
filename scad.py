@@ -239,8 +239,8 @@ def get_base(thing, **kwargs):
 
 def get_link(thing, **kwargs):
 
-    #prepare_print = kwargs.get("prepare_print", True)
-    prepare_print = kwargs.get("prepare_print", False)
+    prepare_print = kwargs.get("prepare_print", True)
+    #prepare_print = kwargs.get("prepare_print", False)
     width = kwargs.get("width", 1)
     height = kwargs.get("height", 1)
     depth = kwargs.get("thickness", 3)                    

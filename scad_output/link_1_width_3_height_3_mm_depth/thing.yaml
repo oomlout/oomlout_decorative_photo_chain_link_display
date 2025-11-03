@@ -17,7 +17,7 @@ kwargs:
   height: 3
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_decorative_photo_chain_link_disp
   oomp_description_extra: ''
@@ -25,11 +25,12 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   thickness: 3
+  typ: all
   type: oomlout_decorative_photo_chain_link_disp_link
   width: 1
 manufacturer: ''
@@ -2094,7 +2095,7 @@ thing:
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_decorative_photo_chain_link_disp
     oomp_description_extra: ''
@@ -2102,7 +2103,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2110,9 +2111,10 @@ thing:
     - 0
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_plate
     thickness: 3
+    typ: all
     type: positive
     width: 1
   - clearance: bottom
@@ -2122,7 +2124,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     nut: true
     oomp_classification: project
     oomp_color: oomlout_decorative_photo_chain_link_disp
@@ -2131,7 +2133,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2144,9 +2146,10 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 3
+    typ: all
     type: negative
     width: 1
   - clearance: bottom
@@ -2156,7 +2159,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     nut: true
     oomp_classification: project
     oomp_color: oomlout_decorative_photo_chain_link_disp
@@ -2165,7 +2168,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2178,9 +2181,10 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_screw_countersunk
     thickness: 3
+    typ: all
     type: negative
     width: 1
   - depth: 18
@@ -2188,7 +2192,7 @@ thing:
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_decorative_photo_chain_link_disp
     oomp_description_extra: ''
@@ -2196,7 +2200,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2209,9 +2213,10 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     thickness: 3
+    typ: all
     type: positive
     width: 1
   - depth: 18
@@ -2219,7 +2224,7 @@ thing:
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_decorative_photo_chain_link_disp
     oomp_description_extra: ''
@@ -2227,7 +2232,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2240,9 +2245,10 @@ thing:
     - 0
     - 180
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_cylinder
     thickness: 3
+    typ: all
     type: positive
     width: 1
   - depth: 5
@@ -2250,7 +2256,7 @@ thing:
     height: 1
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_decorative_photo_chain_link_disp
     oomp_description_extra: ''
@@ -2258,7 +2264,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2266,9 +2272,10 @@ thing:
     - 0
     - -15.0
     - 16
-    save_type: none
+    save_type: all
     shape: oobb_plate
     thickness: 3
+    typ: all
     type: positive
     width: 1
   - depth: 5
@@ -2276,7 +2283,7 @@ thing:
     height: 1
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_decorative_photo_chain_link_disp
     oomp_description_extra: ''
@@ -2284,7 +2291,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2292,19 +2299,20 @@ thing:
     - 0
     - 15.0
     - 16
-    save_type: none
+    save_type: all
     shape: oobb_plate
     thickness: 3
+    typ: all
     type: positive
     width: 1
   components_string:
-  - oobb_plate_shape_positive_type_3_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_20_depth_0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_bottom_clearance_0_180_0_rot_true_nut
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_20_depth_0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_bottom_clearance_0_180_0_rot_true_nut
-  - oobb_cylinder_shape_positive_type_18_depth_0_-15.0_27.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_3.0_radius_0_180_0_rot
-  - oobb_cylinder_shape_positive_type_18_depth_0_15.0_27.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_3.0_radius_0_180_0_rot
-  - oobb_plate_shape_positive_type_5_depth_0_-15.0_16_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
-  - oobb_plate_shape_positive_type_5_depth_0_15.0_16_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
+  - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_20_depth_0_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_bottom_clearance_0_180_0_rot_true_nut
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_20_depth_0_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_bottom_clearance_0_180_0_rot_true_nut
+  - oobb_cylinder_shape_positive_type_18_depth_0_-15.0_27.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_3.0_radius_0_180_0_rot
+  - oobb_cylinder_shape_positive_type_18_depth_0_15.0_27.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_3.0_radius_0_180_0_rot
+  - oobb_plate_shape_positive_type_5_depth_0_-15.0_16_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
+  - oobb_plate_shape_positive_type_5_depth_0_15.0_16_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
   description: oomlout decorative photo chain link disp link 1x3x3
   description_extra: ''
   description_main: 1_width_3_height_3_mm_depth
