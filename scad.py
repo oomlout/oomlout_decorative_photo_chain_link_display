@@ -240,6 +240,7 @@ def get_base(thing, **kwargs):
 def get_link(thing, **kwargs):
 
     prepare_print = kwargs.get("prepare_print", True)
+    #prepare_print = kwargs.get("prepare_print", False)
     width = kwargs.get("width", 1)
     height = kwargs.get("height", 1)
     depth = kwargs.get("thickness", 3)                    
@@ -310,7 +311,7 @@ def get_link(thing, **kwargs):
         p3["depth"] = dep
         poss = []
         pos1 = copy.deepcopy(pos)        
-        pos1[2] += dep + dep/2 + depth  
+        pos1[2] += dep + dep/2
         pos11 = copy.deepcopy(pos1)
         pos1[1] += -(height-1)/2 * 15
         poss.append(pos1)
@@ -328,14 +329,23 @@ def get_link(thing, **kwargs):
     if True:
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "positive"
-        p3["shape"] = f"oobb_plate"    
+        p3["shape"] = f"oobb_plate"   
+        p3["width"] = 1
+        p3["height"] = 1
         dep = 5
         p3["depth"] = dep
         #p3["holes"] = True         uncomment to include default holes
         #p3["m"] = "#"
+        poss = []
         pos1 = copy.deepcopy(pos)         
-        pos1[2] += depth + depth_lifter + dep/2# + 1
-        p3["pos"] = pos1
+        pos1[2] += depth_lifter + dep/2# + 1
+        pos11 = copy.deepcopy(pos1)
+        pos1[1] += -(height-1)/2 * 15
+        poss.append(pos1)
+        pos12 = copy.deepcopy(pos1)
+        pos12[1] += (height+1)/2 * 15
+        poss.append(pos12)
+        p3["pos"] = poss
         oobb_base.append_full(thing,**p3)
 
     if prepare_print:
@@ -363,7 +373,7 @@ def get_link(thing, **kwargs):
         pos1[1] += 0
         pos1[2] += depth
         p3["pos"] = pos1
-        p3["m"] = "#"
+        #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
 def get_side_arm_top(thing, **kwargs):
