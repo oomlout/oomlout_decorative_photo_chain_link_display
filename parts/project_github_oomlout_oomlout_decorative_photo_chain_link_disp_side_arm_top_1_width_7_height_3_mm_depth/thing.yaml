@@ -1,6 +1,6 @@
 classification: project
 color: oomlout_decorative_photo_chain_link_disp
-description_extra: right_extra
+description_extra: ''
 description_main: side_arm_top_1_width_7_height_3_mm_depth
 full_rotations:
 - 0
@@ -10,10 +10,9 @@ full_shift:
 - 0
 - 0
 - 0
-id: project_github_oomlout_oomlout_decorative_photo_chain_link_disp_side_arm_top_1_width_7_height_3_mm_depth_right_extra
-id_oobb: oobb_part_oomlout_decorative_photo_chain_link_disp_side_arm_top_1_width_7_height_3_mm_depth_right_extra
+id: project_github_oomlout_oomlout_decorative_photo_chain_link_disp_side_arm_top_1_width_7_height_3_mm_depth
+id_oobb: oobb_part_oomlout_decorative_photo_chain_link_disp_side_arm_top_1_width_7_height_3_mm_depth
 kwargs:
-  extra: right
   filter: ''
   height: 7
   modes:
@@ -21,7 +20,7 @@ kwargs:
   navigation: true
   oomp_classification: project
   oomp_color: oomlout_decorative_photo_chain_link_disp
-  oomp_description_extra: right_extra
+  oomp_description_extra: ''
   oomp_description_main: side_arm_top_1_width_7_height_3_mm_depth
   oomp_manufacturer: ''
   oomp_mode: project
@@ -44,7 +43,6 @@ thing:
   color: ''
   components:
   - - depth: 3
-      extra: right
       height: 7
       pos:
       - 0
@@ -58,7 +56,6 @@ thing:
       type: positive
       width: 1
   - - depth: 14
-      extra: right
       height: 1
       pos:
       - 0
@@ -72,7 +69,6 @@ thing:
       type: positive
       width: 1.01
   - - depth: 14
-      extra: right
       height: 1
       pos:
       - 0
@@ -86,7 +82,6 @@ thing:
       type: positive
       width: 1.01
   - - depth: 24
-      extra: right
       h: 24
       height: 7
       inclusion: laser
@@ -105,7 +100,6 @@ thing:
       type: negative
       width: 1
     - depth: 24
-      extra: right
       h: 24
       height: 7
       inclusion: 3dpr
@@ -117,7 +111,6 @@ thing:
       type: negative
       width: 1
     - depth: 24
-      extra: right
       h: 24
       height: 7
       inclusion: 'true'
@@ -130,7 +123,6 @@ thing:
       type: negative
       width: 1
   - - depth: 24
-      extra: right
       h: 24
       height: 7
       inclusion: laser
@@ -149,7 +141,6 @@ thing:
       type: negative
       width: 1
     - depth: 24
-      extra: right
       h: 24
       height: 7
       inclusion: 3dpr
@@ -161,7 +152,6 @@ thing:
       type: negative
       width: 1
     - depth: 24
-      extra: right
       h: 24
       height: 7
       inclusion: 'true'
@@ -176,7 +166,6 @@ thing:
   - - objects:
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 1.7
           height: 7
           inclusion: laser
@@ -192,7 +181,6 @@ thing:
           width: 1
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: laser
@@ -208,7 +196,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 3dpr
@@ -220,7 +207,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 'true'
@@ -499,7 +485,6 @@ thing:
           typetype: positive
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 1.9
           height: 7
           inclusion: 3dpr
@@ -515,7 +500,6 @@ thing:
           width: 1
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: laser
@@ -531,7 +515,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 3dpr
@@ -543,7 +526,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 'true'
@@ -822,7 +804,6 @@ thing:
           typetype: positive
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 1.7
           height: 7
           inclusion: 'true'
@@ -838,7 +819,6 @@ thing:
           width: 1
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: laser
@@ -854,7 +834,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 3dpr
@@ -866,7 +845,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 'true'
@@ -1156,7 +1134,6 @@ thing:
   - - objects:
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 1.7
           height: 7
           inclusion: laser
@@ -1172,7 +1149,6 @@ thing:
           width: 1
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: laser
@@ -1188,7 +1164,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 3dpr
@@ -1200,7 +1175,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 'true'
@@ -1479,7 +1453,6 @@ thing:
           typetype: positive
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 1.9
           height: 7
           inclusion: 3dpr
@@ -1495,7 +1468,6 @@ thing:
           width: 1
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: laser
@@ -1511,7 +1483,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 3dpr
@@ -1523,7 +1494,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 'true'
@@ -1802,7 +1772,6 @@ thing:
           typetype: positive
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 1.7
           height: 7
           inclusion: 'true'
@@ -1818,7 +1787,6 @@ thing:
           width: 1
       - - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: laser
@@ -1834,7 +1802,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 3dpr
@@ -1846,7 +1813,6 @@ thing:
           width: 1
         - clearance: bottom
           depth: 9
-          extra: right
           h: 9
           height: 7
           inclusion: 'true'
@@ -2135,7 +2101,6 @@ thing:
       typetype: negative
   components_objects:
   - depth: 3
-    extra: right
     filter: ''
     height: 7
     modes:
@@ -2163,7 +2128,6 @@ thing:
     type: positive
     width: 1
   - depth: 14
-    extra: right
     filter: ''
     height: 1
     modes:
@@ -2191,7 +2155,6 @@ thing:
     type: positive
     width: 1.01
   - depth: 14
-    extra: right
     filter: ''
     height: 1
     modes:
@@ -2219,7 +2182,6 @@ thing:
     type: positive
     width: 1.01
   - depth: 24
-    extra: right
     filter: ''
     height: 7
     m: '#'
@@ -2253,7 +2215,6 @@ thing:
     type: negative
     width: 1
   - depth: 24
-    extra: right
     filter: ''
     height: 7
     m: '#'
@@ -2288,7 +2249,6 @@ thing:
     width: 1
   - clearance: bottom
     depth: 9
-    extra: right
     filter: ''
     height: 7
     m: '#'
@@ -2324,7 +2284,6 @@ thing:
     width: 1
   - clearance: bottom
     depth: 9
-    extra: right
     filter: ''
     height: 7
     m: '#'
@@ -2359,26 +2318,25 @@ thing:
     type: negative
     width: 1
   components_string:
-  - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_7_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_right_extra
-  - oobb_plate_shape_positive_type_14_depth_0_-45.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1.01_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_right_extra
-  - oobb_plate_shape_positive_type_14_depth_0_45.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1.01_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_right_extra
-  - oobb_cylinder_shape_negative_type_24_depth_-12.0_-45.0_19.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_7_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_right_extra_3.25_radius_0_90_0_rot
-  - oobb_cylinder_shape_negative_type_24_depth_-12.0_45.0_19.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_7_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_right_extra_3.25_radius_0_90_0_rot
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_0_-37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_7_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_right_extra_bottom_clearance_0_180_0_rot_true_nut
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_0_37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_7_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_right_extra_bottom_clearance_0_180_0_rot_true_nut
+  - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_7_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
+  - oobb_plate_shape_positive_type_14_depth_0_-45.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1.01_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
+  - oobb_plate_shape_positive_type_14_depth_0_45.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1.01_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
+  - oobb_cylinder_shape_negative_type_24_depth_-12.0_-45.0_19.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_7_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_3.25_radius_0_90_0_rot
+  - oobb_cylinder_shape_negative_type_24_depth_-12.0_45.0_19.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_7_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_3.25_radius_0_90_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_0_-37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_7_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_bottom_clearance_0_180_0_rot_true_nut
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_9_depth_0_37.5_-3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_7_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_bottom_clearance_0_180_0_rot_true_nut
   description: oomlout decorative photo chain link disp side arm top 1x7x3
-  description_extra: right_extra
+  description_extra: ''
   description_main: 1_width_7_height_3_mm_depth
-  extra: right
-  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_decorative_photo_chain_link_disp_side_arm_top_1_width_7_height_3_mm_depth_right_extra
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_decorative_photo_chain_link_disp_side_arm_top_1_width_7_height_3_mm_depth
   height: 7
   height_mm: 104
-  id: oobb_part_oomlout_decorative_photo_chain_link_disp_side_arm_top_1_width_7_height_3_mm_depth_right_extra
-  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_decorative_photo_chain_link_disp_side_arm_top/1_width_7_height_3_mm_depth/right_extra/part
-  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_decorative_photo_chain_link_disp_side_arm_top_01_07_03_ex_right
+  id: oobb_part_oomlout_decorative_photo_chain_link_disp_side_arm_top_1_width_7_height_3_mm_depth
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_decorative_photo_chain_link_disp_side_arm_top/1_width_7_height_3_mm_depth/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_decorative_photo_chain_link_disp_side_arm_top_01_07_03
   manufacturer: ''
   name: Oobb Part Oomlout Decorative Photo Chain Link Disp Side Arm Top 1 Width 7
-    Height 3 mm Depth Right Extra
+    Height 3 mm Depth
   name_short: Oomlout Decorative Photo Chain Link
   part_number: ''
   short_name: ''

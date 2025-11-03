@@ -126,7 +126,7 @@ def make_scad(**kwargs):
             p3["width"] = 1
             p3["height"] = 7
             p3["thickness"] = 3
-            p3["extra"] = extra
+            #p3["extra"] = ""
             part["kwargs"] = p3
             nam = "side_arm_top"
             part["name"] = nam
@@ -139,26 +139,29 @@ def make_scad(**kwargs):
             part_bottom = copy.deepcopy(part)
             part_bottom["name"] = "side_arm_bottom"
             p3 = copy.deepcopy(part_bottom["kwargs"])                           
+            p3["extra"] = extra
             #p3["extra"] = ""
             part_bottom["kwargs"] = p3
             parts.append(part_bottom)
 
 
+        heights = [3,2,2.5]
         if True:
-            part = copy.deepcopy(part_default)
-            p3 = copy.deepcopy(kwargs)
-            p3["width"] = 1
-            p3["height"] = 3
-            p3["thickness"] = 3
-            #p3["extra"] = ""
-            part["kwargs"] = p3
-            nam = "link"
-            part["name"] = nam
-            if oomp_mode == "oobb":
-                p3["oomp_size"] = nam
-            if not test:
-                pass
-                parts.append(part)
+            for height in heights:
+                part = copy.deepcopy(part_default)
+                p3 = copy.deepcopy(kwargs)
+                p3["width"] = 1
+                p3["height"] = height
+                p3["thickness"] = 3
+                #p3["extra"] = ""
+                part["kwargs"] = p3
+                nam = "link"
+                part["name"] = nam
+                if oomp_mode == "oobb":
+                    p3["oomp_size"] = nam
+                if not test:
+                    pass
+                    parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -272,8 +275,8 @@ def get_link(thing, **kwargs):
         p3["pos"] = pos1
         #oobb_base.append_full(thing,**p3)
 
-    depth_lifter = 15
-    depth_extra = 1
+    depth_lifter = 14
+    depth_extra = 2
     #add screw_countersunk
     if True:
         p3 = copy.deepcopy(kwargs)
@@ -281,8 +284,8 @@ def get_link(thing, **kwargs):
         p3["shape"] = f"oobb_screw_countersunk"
         p3["radius_name"] = "m3"
         p3["clearance"] = "bottom"
-        dep = depth + depth_lifter + depth_extra*2
-        p3["depth"] = dep
+        dep = depth + 3 + depth_lifter + depth_extra + depth_extra
+        p3["depth"] = dep 
         poss = []
         pos1 = copy.deepcopy(pos)        
         pos1[2] += 0
@@ -297,6 +300,7 @@ def get_link(thing, **kwargs):
         rot1[1] += 180
         p3["rot"] = rot1
         p3["nut"] = True
+        
         p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
@@ -309,11 +313,12 @@ def get_link(thing, **kwargs):
         rad = 6/2
         p3["radius"] = rad
         
-        dep = depth + depth_lifter
+        dep = depth_lifter + depth_extra
         p3["depth"] = dep
         poss = []
         pos1 = copy.deepcopy(pos)        
-        pos1[2] += dep + dep/2
+        #pos1[0] += 15
+        pos1[2] += dep + dep/2 + depth
         pos11 = copy.deepcopy(pos1)
         pos1[1] += -(height-1)/2 * 15
         poss.append(pos1)
@@ -340,12 +345,12 @@ def get_link(thing, **kwargs):
         #p3["m"] = "#"
         poss = []
         pos1 = copy.deepcopy(pos)         
-        pos1[2] += depth_lifter + depth_extra
+        pos1[2] += 0 + depth + depth_lifter + depth_extra
         pos11 = copy.deepcopy(pos1)
-        pos1[1] += -(height-1)/2 * 15
-        poss.append(pos1)
+        pos11[1] += (height-1)/2 * 15
+        poss.append(pos11)
         pos12 = copy.deepcopy(pos1)
-        pos12[1] += (height+1)/2 * 15
+        pos12[1] += -(height-1)/2 * 15
         poss.append(pos12)
         p3["pos"] = poss
         oobb_base.append_full(thing,**p3)

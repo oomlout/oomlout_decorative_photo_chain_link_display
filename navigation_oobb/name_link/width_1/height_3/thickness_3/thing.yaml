@@ -57,7 +57,7 @@ thing:
       width: 1
   - - objects:
       - - clearance: bottom
-          depth: 20
+          depth: 24
           h: 1.7
           height: 3
           inclusion: laser
@@ -72,23 +72,23 @@ thing:
           type: positive
           width: 1
       - - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: laser
           m: '#'
           pos: &id001
           - 0
           - 0
-          - -20.0
+          - -24.0
           r: 1.5
           radius: 1.5
           shape: cylinder
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -98,8 +98,8 @@ thing:
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 'true'
           m: '#'
@@ -368,7 +368,7 @@ thing:
           pos:
           - 0
           - 0
-          - -17.5
+          - -21.5
           rot:
           - 0
           - 0
@@ -376,7 +376,7 @@ thing:
           type: rotation
           typetype: positive
       - - clearance: bottom
-          depth: 20
+          depth: 24
           h: 1.9
           height: 3
           inclusion: 3dpr
@@ -391,23 +391,23 @@ thing:
           type: positive
           width: 1
       - - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: laser
           m: '#'
           pos: &id002
           - 0
           - 0
-          - -20.0
+          - -24.0
           r: 1.8
           radius: 1.8
           shape: cylinder
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -417,8 +417,8 @@ thing:
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 'true'
           m: '#'
@@ -687,7 +687,7 @@ thing:
           pos:
           - 0
           - 0
-          - -17.0
+          - -21.0
           rot:
           - 0
           - 0
@@ -695,7 +695,7 @@ thing:
           type: rotation
           typetype: positive
       - - clearance: bottom
-          depth: 20
+          depth: 24
           h: 1.7
           height: 3
           inclusion: 'true'
@@ -710,23 +710,23 @@ thing:
           type: positive
           width: 1
       - - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: laser
           m: '#'
           pos: &id003
           - 0
           - 0
-          - -20.0
+          - -24.0
           r: 1.5
           radius: 1.5
           shape: cylinder
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -736,8 +736,8 @@ thing:
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 'true'
           m: '#'
@@ -1006,7 +1006,7 @@ thing:
           pos:
           - 0
           - 0
-          - -17.5
+          - -21.5
           rot:
           - 0
           - 0
@@ -1025,7 +1025,7 @@ thing:
       typetype: negative
   - - objects:
       - - clearance: bottom
-          depth: 20
+          depth: 24
           h: 1.7
           height: 3
           inclusion: laser
@@ -1040,23 +1040,23 @@ thing:
           type: positive
           width: 1
       - - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: laser
           m: '#'
           pos: &id004
           - 0
           - 0
-          - -20.0
+          - -24.0
           r: 1.5
           radius: 1.5
           shape: cylinder
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -1066,8 +1066,8 @@ thing:
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 'true'
           m: '#'
@@ -1336,7 +1336,7 @@ thing:
           pos:
           - 0
           - 0
-          - -17.5
+          - -21.5
           rot:
           - 0
           - 0
@@ -1344,7 +1344,7 @@ thing:
           type: rotation
           typetype: positive
       - - clearance: bottom
-          depth: 20
+          depth: 24
           h: 1.9
           height: 3
           inclusion: 3dpr
@@ -1359,23 +1359,23 @@ thing:
           type: positive
           width: 1
       - - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: laser
           m: '#'
           pos: &id005
           - 0
           - 0
-          - -20.0
+          - -24.0
           r: 1.8
           radius: 1.8
           shape: cylinder
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -1385,8 +1385,8 @@ thing:
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 'true'
           m: '#'
@@ -1655,7 +1655,7 @@ thing:
           pos:
           - 0
           - 0
-          - -17.0
+          - -21.0
           rot:
           - 0
           - 0
@@ -1663,7 +1663,7 @@ thing:
           type: rotation
           typetype: positive
       - - clearance: bottom
-          depth: 20
+          depth: 24
           h: 1.7
           height: 3
           inclusion: 'true'
@@ -1678,23 +1678,23 @@ thing:
           type: positive
           width: 1
       - - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: laser
           m: '#'
           pos: &id006
           - 0
           - 0
-          - -20.0
+          - -24.0
           r: 1.5
           radius: 1.5
           shape: cylinder
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 3dpr
           m: '#'
@@ -1704,8 +1704,8 @@ thing:
           type: positive
           width: 1
         - clearance: bottom
-          depth: 20
-          h: 20
+          depth: 24
+          h: 24
           height: 3
           inclusion: 'true'
           m: '#'
@@ -1974,7 +1974,7 @@ thing:
           pos:
           - 0
           - 0
-          - -17.5
+          - -21.5
           rot:
           - 0
           - 0
@@ -1991,14 +1991,14 @@ thing:
       - 0
       type: rotation
       typetype: negative
-  - - depth: 18
-      h: 18
+  - - depth: 16
+      h: 16
       height: 3
       inclusion: laser
       pos: &id007
       - 0
       - -15.0
-      - 18.0
+      - 19.0
       r: 3.0
       radius: 3.0
       rot: &id008
@@ -2008,8 +2008,8 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-    - depth: 18
-      h: 18
+    - depth: 16
+      h: 16
       height: 3
       inclusion: 3dpr
       pos: *id007
@@ -2018,8 +2018,8 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-    - depth: 18
-      h: 18
+    - depth: 16
+      h: 16
       height: 3
       inclusion: 'true'
       pos: *id007
@@ -2029,14 +2029,14 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-  - - depth: 18
-      h: 18
+  - - depth: 16
+      h: 16
       height: 3
       inclusion: laser
       pos: &id009
       - 0
       - 15.0
-      - 18.0
+      - 19.0
       r: 3.0
       radius: 3.0
       rot: &id010
@@ -2046,8 +2046,8 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-    - depth: 18
-      h: 18
+    - depth: 16
+      h: 16
       height: 3
       inclusion: 3dpr
       pos: *id009
@@ -2056,8 +2056,8 @@ thing:
       shape: cylinder
       type: positive
       width: 1
-    - depth: 18
-      h: 18
+    - depth: 16
+      h: 16
       height: 3
       inclusion: 'true'
       pos: *id009
@@ -2072,8 +2072,8 @@ thing:
       height: 1
       pos:
       - 0
-      - -15.0
-      - 16
+      - 15.0
+      - 19
       r: 7.0
       shape: cylinder
       type: positive
@@ -2083,8 +2083,8 @@ thing:
       height: 1
       pos:
       - 0
-      - 15.0
-      - 16
+      - -15.0
+      - 19
       r: 7.0
       shape: cylinder
       type: positive
@@ -2105,7 +2105,7 @@ thing:
         width: 1
     - - objects:
         - - clearance: bottom
-            depth: 20
+            depth: 24
             h: 1.7
             height: 3
             inclusion: laser
@@ -2120,23 +2120,23 @@ thing:
             type: positive
             width: 1
         - - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: laser
             m: '#'
             pos: &id011
             - 0
             - 0
-            - -20.0
+            - -24.0
             r: 1.5
             radius: 1.5
             shape: cylinder
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 3dpr
             m: '#'
@@ -2146,8 +2146,8 @@ thing:
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 'true'
             m: '#'
@@ -2416,7 +2416,7 @@ thing:
             pos:
             - 0
             - 0
-            - -17.5
+            - -21.5
             rot:
             - 0
             - 0
@@ -2424,7 +2424,7 @@ thing:
             type: rotation
             typetype: positive
         - - clearance: bottom
-            depth: 20
+            depth: 24
             h: 1.9
             height: 3
             inclusion: 3dpr
@@ -2439,23 +2439,23 @@ thing:
             type: positive
             width: 1
         - - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: laser
             m: '#'
             pos: &id012
             - 0
             - 0
-            - -20.0
+            - -24.0
             r: 1.8
             radius: 1.8
             shape: cylinder
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 3dpr
             m: '#'
@@ -2465,8 +2465,8 @@ thing:
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 'true'
             m: '#'
@@ -2735,7 +2735,7 @@ thing:
             pos:
             - 0
             - 0
-            - -17.0
+            - -21.0
             rot:
             - 0
             - 0
@@ -2743,7 +2743,7 @@ thing:
             type: rotation
             typetype: positive
         - - clearance: bottom
-            depth: 20
+            depth: 24
             h: 1.7
             height: 3
             inclusion: 'true'
@@ -2758,23 +2758,23 @@ thing:
             type: positive
             width: 1
         - - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: laser
             m: '#'
             pos: &id013
             - 0
             - 0
-            - -20.0
+            - -24.0
             r: 1.5
             radius: 1.5
             shape: cylinder
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 3dpr
             m: '#'
@@ -2784,8 +2784,8 @@ thing:
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 'true'
             m: '#'
@@ -3054,7 +3054,7 @@ thing:
             pos:
             - 0
             - 0
-            - -17.5
+            - -21.5
             rot:
             - 0
             - 0
@@ -3073,7 +3073,7 @@ thing:
         typetype: negative
     - - objects:
         - - clearance: bottom
-            depth: 20
+            depth: 24
             h: 1.7
             height: 3
             inclusion: laser
@@ -3088,23 +3088,23 @@ thing:
             type: positive
             width: 1
         - - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: laser
             m: '#'
             pos: &id014
             - 0
             - 0
-            - -20.0
+            - -24.0
             r: 1.5
             radius: 1.5
             shape: cylinder
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 3dpr
             m: '#'
@@ -3114,8 +3114,8 @@ thing:
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 'true'
             m: '#'
@@ -3384,7 +3384,7 @@ thing:
             pos:
             - 0
             - 0
-            - -17.5
+            - -21.5
             rot:
             - 0
             - 0
@@ -3392,7 +3392,7 @@ thing:
             type: rotation
             typetype: positive
         - - clearance: bottom
-            depth: 20
+            depth: 24
             h: 1.9
             height: 3
             inclusion: 3dpr
@@ -3407,23 +3407,23 @@ thing:
             type: positive
             width: 1
         - - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: laser
             m: '#'
             pos: &id015
             - 0
             - 0
-            - -20.0
+            - -24.0
             r: 1.8
             radius: 1.8
             shape: cylinder
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 3dpr
             m: '#'
@@ -3433,8 +3433,8 @@ thing:
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 'true'
             m: '#'
@@ -3703,7 +3703,7 @@ thing:
             pos:
             - 0
             - 0
-            - -17.0
+            - -21.0
             rot:
             - 0
             - 0
@@ -3711,7 +3711,7 @@ thing:
             type: rotation
             typetype: positive
         - - clearance: bottom
-            depth: 20
+            depth: 24
             h: 1.7
             height: 3
             inclusion: 'true'
@@ -3726,23 +3726,23 @@ thing:
             type: positive
             width: 1
         - - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: laser
             m: '#'
             pos: &id016
             - 0
             - 0
-            - -20.0
+            - -24.0
             r: 1.5
             radius: 1.5
             shape: cylinder
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 3dpr
             m: '#'
@@ -3752,8 +3752,8 @@ thing:
             type: positive
             width: 1
           - clearance: bottom
-            depth: 20
-            h: 20
+            depth: 24
+            h: 24
             height: 3
             inclusion: 'true'
             m: '#'
@@ -4022,7 +4022,7 @@ thing:
             pos:
             - 0
             - 0
-            - -17.5
+            - -21.5
             rot:
             - 0
             - 0
@@ -4039,14 +4039,14 @@ thing:
         - 0
         type: rotation
         typetype: negative
-    - - depth: 18
-        h: 18
+    - - depth: 16
+        h: 16
         height: 3
         inclusion: laser
         pos: &id017
         - 0
         - -15.0
-        - 18.0
+        - 19.0
         r: 3.0
         radius: 3.0
         rot: &id018
@@ -4056,8 +4056,8 @@ thing:
         shape: cylinder
         type: positive
         width: 1
-      - depth: 18
-        h: 18
+      - depth: 16
+        h: 16
         height: 3
         inclusion: 3dpr
         pos: *id017
@@ -4066,8 +4066,8 @@ thing:
         shape: cylinder
         type: positive
         width: 1
-      - depth: 18
-        h: 18
+      - depth: 16
+        h: 16
         height: 3
         inclusion: 'true'
         pos: *id017
@@ -4077,14 +4077,14 @@ thing:
         shape: cylinder
         type: positive
         width: 1
-    - - depth: 18
-        h: 18
+    - - depth: 16
+        h: 16
         height: 3
         inclusion: laser
         pos: &id019
         - 0
         - 15.0
-        - 18.0
+        - 19.0
         r: 3.0
         radius: 3.0
         rot: &id020
@@ -4094,8 +4094,8 @@ thing:
         shape: cylinder
         type: positive
         width: 1
-      - depth: 18
-        h: 18
+      - depth: 16
+        h: 16
         height: 3
         inclusion: 3dpr
         pos: *id019
@@ -4104,8 +4104,8 @@ thing:
         shape: cylinder
         type: positive
         width: 1
-      - depth: 18
-        h: 18
+      - depth: 16
+        h: 16
         height: 3
         inclusion: 'true'
         pos: *id019
@@ -4120,8 +4120,8 @@ thing:
         height: 1
         pos:
         - 0
-        - -15.0
-        - 16
+        - 15.0
+        - 19
         r: 7.0
         shape: cylinder
         type: positive
@@ -4131,8 +4131,8 @@ thing:
         height: 1
         pos:
         - 0
-        - 15.0
-        - 16
+        - -15.0
+        - 19
         r: 7.0
         shape: cylinder
         type: positive
@@ -4212,7 +4212,7 @@ thing:
     type: positive
     width: 1
   - clearance: bottom
-    depth: 20
+    depth: 24
     filter: ''
     height: 3
     m: '#'
@@ -4247,7 +4247,7 @@ thing:
     type: negative
     width: 1
   - clearance: bottom
-    depth: 20
+    depth: 24
     filter: ''
     height: 3
     m: '#'
@@ -4281,7 +4281,7 @@ thing:
     typ: all
     type: negative
     width: 1
-  - depth: 18
+  - depth: 16
     filter: ''
     height: 3
     modes:
@@ -4313,7 +4313,7 @@ thing:
     typ: all
     type: positive
     width: 1
-  - depth: 18
+  - depth: 16
     filter: ''
     height: 3
     modes:
@@ -4364,8 +4364,8 @@ thing:
     overwrite: true
     pos:
     - 0
-    - -15.0
-    - 16
+    - 15.0
+    - 19
     save_type: all
     shape: oobb_plate
     thickness: 3
@@ -4391,8 +4391,8 @@ thing:
     overwrite: true
     pos:
     - 0
-    - 15.0
-    - 16
+    - -15.0
+    - 19
     save_type: all
     shape: oobb_plate
     thickness: 3
@@ -4427,12 +4427,12 @@ thing:
     width: 1
   components_string:
   - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_20_depth_0_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_bottom_clearance_0_180_0_rot_true_nut
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_20_depth_0_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_bottom_clearance_0_180_0_rot_true_nut
-  - oobb_cylinder_shape_positive_type_18_depth_0_-15.0_27.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_3.0_radius_0_180_0_rot
-  - oobb_cylinder_shape_positive_type_18_depth_0_15.0_27.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_3.0_radius_0_180_0_rot
-  - oobb_plate_shape_positive_type_5_depth_0_-15.0_16_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
-  - oobb_plate_shape_positive_type_5_depth_0_15.0_16_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_24_depth_0_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_bottom_clearance_0_180_0_rot_true_nut
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_24_depth_0_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_bottom_clearance_0_180_0_rot_true_nut
+  - oobb_cylinder_shape_positive_type_16_depth_0_-15.0_27.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_3.0_radius_0_180_0_rot
+  - oobb_cylinder_shape_positive_type_16_depth_0_15.0_27.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color_3.0_radius_0_180_0_rot
+  - oobb_plate_shape_positive_type_5_depth_0_15.0_19_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
+  - oobb_plate_shape_positive_type_5_depth_0_-15.0_19_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_1_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
   - oobb_slice_shape_n_type_0_0_3_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1_width_3_height_3_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_decorative_photo_chain_link_disp_oomp_color
   description: oomlout decorative photo chain link disp link 1x3x3
   description_extra: ''
